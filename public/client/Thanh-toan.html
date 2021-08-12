@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="data/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style-header-footer.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/fontawesome-all.css">
+    <link rel="stylesheet" href="css/gio-hang.css">
+    <link rel="stylesheet" href="css/Thanh-toan.css">
+    <title>Hoa quả sạch</title>
+</head>
+
+<body>
+
+
+
+    <div class="container-fuild">
+        <div class="row banner">
+            <div class="col col-sm-2 col-md-2 col-lg-2 col-xl-4">
+                <a href="#"><img src="images/greenftuit6.png" class="logo"></a>
+            </div>
+            <div class="col col-sm-8 col-md-8 col-lg-8 col-xl-6 align-self-center">
+                <form class="example " action="/action_page.php" style="margin:auto;max-width:300px">
+                    <input type="text" placeholder="Search.." name="search2">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+
+            </div>
+            <div class="col col-sm-2 col-md-2 col-lg-2 col-xl-1 justify-content-sm-end">
+                <a href="#"><img src="image/giỏ hàng.png" class="giohang"></a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto ">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Trang chủ</a>
+                    </li>
+
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link" id="navbarDropdown" href="#">Sản phẩm</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Tin tức</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Giới thiệu</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="container sp">
+        <div class="alert ketnoitrang" role="alert" style="background-color:#e9ecef">
+            <a href="#">Trang chủ</a>
+            <a href="#">/Thanh toán</a>
+        </div>
+        <div class="alert alert-secondary" role="alert" id="dt-tt">
+            ĐẶT HÀNG VÀ THANH TOÁN
+          </div>
+        <h5>THÔNG TIN THANH TOÁN</h5>
+        <form action="" method="post" style="margin-top: 50px">
+            <div class="row">
+               
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <div id="thanh-toan">
+                        <label for="Name">Họ và Tên (<span style="color: red;">*</span>)</label>
+                        <input type="text" name="Name" id="Name" class="form-control">
+                    </div>
+
+                    <div id="thanh-toan">
+                        <label for="Phone">Phone (<span style="color: red;">*</span>)</label>
+                        <input type="number" maxlength="10" name="Phone" id="Phone" class="form-control">
+                    </div>
+
+                    <div id="thanh-toan">
+                        <label for="Email">Email </label>
+                        <input type="email" name="Email" id="Email" class="form-control">
+                    </div>
+
+                    <div id="ghi-chu">
+                        <textarea name="ghichu" id="ghichu" cols="50" rows="5" class="form-control" placeholder="Ghi chú đơn hàng..."></textarea>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <div >
+                        <textarea name="diachi" id="diachi" cols="50" rows="5" class="form-control" placeholder="Địa chỉ người nhận...(*)"></textarea>
+                    </div>
+
+                    <div id="tai-khoan">
+                        <h5>Quý khách có thể thanh toán tiền mặt khi nhận hàng hoặc chuyển khoản theo thông tin sau</h5>
+                         <p>STK: 0xxxxxxxxxxx</p>
+                         <p>Chủ tài khoản: Nguyễn Văn A</p>
+                         <p>Ngân hàng: X</p>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+
+        
+
+        <table class="table" style="margin-top:50px">
+            <thead>
+                <tr id="tieu-de">
+                    <th scope="col">STT</th>
+                    <th scope="col">Hình ảnh</th>
+                    <th scope="col">Tên sản phẩm</th>
+                    <th scope="col">Đơn giá</th>
+                    <th scope="col">Số lượng</th>
+                    <th scope="col">Đơn vị tính</th>
+                    <th scope="col">Thành tiền</th>
+                    <th scope="col">Xóa</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row" class="thong-tin-giohang"><span>1</span></th>
+                    <td id="anh" style="text-align: center;"><img src="image/Lê.jpg" id="anh-minhhoa" alt=""></td>
+                    <td class="thong-tin-giohang">Lê hàn quốc</td>
+                    <td class="thong-tin-giohang gia">100.000 <sup>đ</sup></td>
+                    <td class="thong-tin-giohang"><input type="number" id="sl" /></td>
+                    <td class="thong-tin-giohang">Kg</td>
+                    <td class="thong-tin-giohang gia">100.000 <sup>đ</sup></td>
+                    <td class="thong-tin-giohang"><i class="fa fa-trash" aria-hidden="true"></i></td>
+                </tr>
+
+                <tr>
+                    <th scope="row" class="thong-tin-giohang"><span>1</span></th>
+                    <td id="anh" style="text-align: center;"><img src="image/Lê.jpg" id="anh-minhhoa" alt=""></td>
+                    <td class="thong-tin-giohang">Lê hàn quốc</td>
+                    <td class="thong-tin-giohang gia">100.000 <sup>đ</sup></td>
+                    <td class="thong-tin-giohang"><input type="number" id="sl" /></td>
+                    <td class="thong-tin-giohang">Kg</td>
+                    <td class="thong-tin-giohang gia">100.000 <sup>đ</sup></td>
+                    <td class="thong-tin-giohang"><i class="fa fa-trash" aria-hidden="true"></i></td>
+                </tr>
+
+
+            </tbody>
+        </table>
+
+        <div class="d-flex justify-content-between p-1 mb-2 ">
+            <div class="m-1 p-1 "><button id="cap-nhat">Kiểm tra giỏ hàng</button></div>
+
+            <div class="m-1 p-1 ">
+                <div class="d-flex justify-content-end p-1 mb-2 ">  
+                    <div class="m-1 p-1 " id="tong-giatri">Tổng cộng</div>
+                    <div class="m-1 p-1" id="tong-gia">200.000 <sup>đ</sup></div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-end p-1 mb-2 ">
+            <div class="m-1 p-1 "><button id="cap-nhat">MUA HÀNG</button></div>
+        </div>
+    </div>
+
+
+
+
+
+    
+
+
+    <!-- ------------------FOOter--------------------------------- -->
+    <!-- Footer -->
+    <section id="footer">
+        <div class="container">
+            <div class="row text-center text-xs-center text-sm-left text-md-left">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5 id="footer-text">CHÍNH SÁCH</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><i class="fa fa-angle-double-right"></i> Chính sách bảo mật thông tin</li>
+                        <li><i class="fa fa-angle-double-right"></i> Quy định và hình thức thanh toán</li>
+                        <li><i class="fa fa-angle-double-right"></i> Chính sách thành viên Fuji</li>
+                        <li><i class="fa fa-angle-double-right"></i> Chính sách đổi trả</li>
+                        <li><i class="fa fa-angle-double-right"></i> Chính sách vận chuyển</li>
+                        <li><i class="fa fa-angle-double-right"></i> Câu hỏi thường gặp</li>
+
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5 id="footer-text">HỖ TRỢ</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><i class="fa fa-angle-double-right"></i> Hệ thống cửa hàng</li>
+                        <li><i class="fa fa-angle-double-right"></i> Hướng dẫn mua hàng</li>
+                        <li><i class="fa fa-angle-double-right"></i> Hóa đơn VAT</li>
+                        <li>
+                            <ul class="social-icon">
+                                <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-google-plus-official" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-youtube-play" aria-hidden="true"></i></li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5 id="footer-text">CÔNG TY THỰC PHẨM SẠCH</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><i class="fa fa-angle-double-right"></i> Trụ sở: Hà Nội</li>
+                        <li><i class="fa fa-angle-double-right"></i> Hotline: 1900 1111- 0123456789</li>
+                        <li><i class="fa fa-angle-double-right"></i> Website: www.hoaquasach.com</li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ./Footer -->
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
